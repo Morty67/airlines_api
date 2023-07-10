@@ -8,4 +8,4 @@ class AircraftSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Aircraft
-        fields = ["name", "identifier", "seat_capacity", "fuel_capacity"]
+        fields = ["id", "name", "identifier", "seat_capacity", "fuel_capacity"]
